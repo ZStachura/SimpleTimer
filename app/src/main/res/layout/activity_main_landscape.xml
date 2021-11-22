@@ -3,15 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginTop="185dp"
-        android:layout_marginBottom="496dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="271dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +29,7 @@
             android:layout_width="48dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/foxy"
-            android:text="@string/plus"
-            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/plus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -42,8 +42,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/plus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/plus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -56,8 +55,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/plus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/plus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -70,8 +68,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/plus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/plus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -82,10 +79,12 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="194dp"
-        android:layout_marginTop="241dp"
-        android:layout_marginBottom="296dp"
+        android:layout_width="729dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="180dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,8 +116,7 @@
             <androidx.constraintlayout.widget.Barrier
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:barrierDirection="left" />
+                android:layout_weight="1" />
 
             <EditText
                 android:id="@+id/editTextTime4"
@@ -141,16 +139,17 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginTop="435dp"
-        android:layout_marginBottom="244dp"
+        android:layout_width="729dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="130dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Space
             android:layout_width="wrap_content"
@@ -162,8 +161,7 @@
             android:layout_width="48dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/foxy"
-            android:text="@string/minus"
-            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/minus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -176,8 +174,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/minus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/minus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -190,8 +187,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/minus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/minus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -204,8 +200,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/minus"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:text="@string/minus" />
 
         <Space
             android:layout_width="wrap_content"
@@ -216,14 +211,15 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="573dp"
-        android:layout_marginBottom="92dp"
+        android:layout_width="729dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="37dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -238,8 +234,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/start"
-            tools:ignore="TextContrastCheck,TextContrastCheck" />
+            android:text="@string/start" />
 
         <Space
             android:layout_width="wrap_content"
@@ -252,8 +247,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/pause"
-            tools:ignore="TextContrastCheck,TextContrastCheck" />
+            android:text="@string/pause" />
 
         <Space
             android:layout_width="wrap_content"
@@ -266,8 +260,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/foxy"
-            android:text="@string/stop"
-            tools:ignore="TextContrastCheck,TextContrastCheck" />
+            android:text="@string/stop" />
 
         <Space
             android:layout_width="wrap_content"
@@ -277,10 +270,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="409dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="572dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="338dp"
         android:background="@color/foxy"
         android:text="Simple Timer"
         android:textAlignment="center"
@@ -292,5 +287,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
